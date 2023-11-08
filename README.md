@@ -198,7 +198,7 @@ TrxDataLakeBastionHost
 GlueStreamingCDCtoIcebergS3Path
 GlueMSKServerlessConnection
 GlueStreamingMSKServerlessToIcebergJobRole
-GlueIcebergeDatabase
+GlueIcebergDatabase
 GrantLFPermissionsOnGlueJobRole
 GlueStreamingJobMSKServerlessToIceberg
 KafkaConnectorStack
@@ -377,7 +377,7 @@ Create a MSK Serverless Cluster
 
      <pre>
      (.venv) $ cdk deploy GlueStreamingMSKServerlessToIcebergJobRole \
-                          GlueIcebergeDatabase \
+                          GlueIcebergDatabase \
                           GrantLFPermissionsOnGlueJobRole \
                           GlueStreamingJobMSKServerlessToIceberg
      </pre>
