@@ -376,7 +376,8 @@ Create a MSK Serverless Cluster
    * (step 2) Provision the Glue Streaming Job
 
      <pre>
-     (.venv) $ cdk deploy GlueStreamingMSKServerlessToIcebergJobRole \
+     (.venv) $ cdk deploy GlueMSKServerlessConnection \
+                          GlueStreamingMSKServerlessToIcebergJobRole \
                           GlueIcebergDatabase \
                           GrantLFPermissionsOnGlueJobRole \
                           GlueStreamingJobMSKServerlessToIceberg
